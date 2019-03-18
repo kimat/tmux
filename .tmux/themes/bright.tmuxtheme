@@ -1,6 +1,6 @@
 # -- Command prompt
 set-option -g message-bg colour106
-set-option -g message-fg black,bold
+set-option -g message-fg black
 
 # -- Clock
 set-window-option -g clock-mode-colour blue #green

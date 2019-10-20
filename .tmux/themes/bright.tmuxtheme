@@ -1,18 +1,20 @@
 # -- Command prompt
-set-option -g message-bg colour106
-set-option -g message-fg black
+set -g message-style "fg=black,bg=colour179"
+
+# -- Vim mode
+set -g mode-style "fg=black,bg=colour179"
 
 # -- Clock
-set-window-option -g clock-mode-colour blue #green
+set-window-option -g clock-mode-colour colour110 #green
 bind-key Space clock-mode
 
-# -- Frame around active pane ?
-set-option -g display-panes-active-colour colour33 #blue
-set-option -g display-panes-colour colour166 #orange
+# -- Frame around active pane
+set -g  pane-active-border-style fg=blue # blue
+set -g  pane-border-style fg=colour252 # blue
 
-# -- Panes ?
-set -g pane-border-fg white
-set -g pane-active-border-fg colour12
+# -- Active/Inactive pane background
+set -g window-active-style bg=white
+set -g window-style bg=white
 
 # -- Status bar
 set -g status-position top

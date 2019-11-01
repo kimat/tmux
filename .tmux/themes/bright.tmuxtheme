@@ -19,7 +19,6 @@ set -g window-style bg=white
 # -- Status bar
 set -g status-position top
 set -g status-bg "#E4E4E4"
-set -g status-attr dim
 set -g status-right '#[fg=black,bold]%A, the %dth of %B        #[fg=black,bg=colour110]       %H:%M       '
 
 # -- Tabs in status bar

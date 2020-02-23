@@ -24,3 +24,7 @@ set -g status-right '#[fg=black,bold]%A, the %dth of %B        #[fg=black,bg=col
 # -- Tabs in status bar
 setw -g window-status-current-format '#[fg=black,bold,bg=colour179]   #W   '
 setw -g window-status-format '#[fg=black,bold,bg=colour252]   #W   '
+
+# -- Message style
+set -g message-style "fg=black,bg=colour110"
+set-option -g display-time 2500

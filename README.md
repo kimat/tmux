@@ -4,7 +4,7 @@
 
 - [tmux](https://github.com/tmux/tmux/releases)
 
-## Install this tmux config using gnu stow
+## Install this tmux config using e.g. gnu stow
 
 ```sh
 # install

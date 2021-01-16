@@ -8,7 +8,7 @@
 
 ```sh
 # install
-stow  . -t ~
+stow  --no-folding . -t ~
 
 # uninstall
 stow  -D . -t ~
